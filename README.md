@@ -4,9 +4,9 @@ This repo contains AngularJS example app that demonstrate the various OpenId Con
 
 ## Setting up OIDC configuration
 
-1. Go to `app` folder inside `src` there you can able to see the configuration details
-    * In "login" folder locate `login.component.ts` file to updated your configuration
-    * In "auth" folder locate `auth.component.ts` file to updated your configuration
+1. To add your keycloak configuration details, Goto `/src/app`
+    * In "login" folder locate `login.component.ts` and update keycloak configuration
+    * In "auth" folder locate `auth.component.ts` and update keycloak configuration (same as login.component.ts)
 
 ### Update your configuration as below mentioned and replace the placeholders
 
