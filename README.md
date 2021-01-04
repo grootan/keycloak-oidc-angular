@@ -1,14 +1,14 @@
 # Keycloak - Implicit Flow using AngularJS
 
-This repo contains AngularJS example app that demonstrate the various OpenId Connect's Implicit flow.
+This repository contains a AngularJS example application that demonstrates the implicit flow for OpenID Connect's.
 
 ## Setting up OIDC configuration
 
-1. To add your keycloak configuration details, Goto `/src/app`
-    * In "login" folder locate `login.component.ts` and update keycloak configuration
-    * In "auth" folder locate `auth.component.ts` and update keycloak configuration (same as login.component.ts)
+1. To add information about your keycloak configuration, go to `/src/app`
+    * Locate `login.component.ts` in the "login" folder and upgrade the keycloak configurations.
+    * Locate `auth.component.ts` in the "auth" folder and upgrade the keycloak configurations (same as login.component.ts)
 
-### Update your configuration as below mentioned and replace the placeholders
+### Update the configuration as mentioned below and replace the placeholders
 
 ```javascript
 const keycloakConfig = {
@@ -20,33 +20,33 @@ const keycloakConfig = {
 
 ## Instructions
 
-1. Clone the Repository
+1. Clone/Download the Repository
 2. RUN `npm install` and wait for the completion of installation on `node_modules`
-3. Once `node_modules` are installed and RUN `npm run start` to start execution of `ng serve`. Because `ng serve` command builds your app and serves it locally.
-4. Once the app is compiled successfully, Go to browser and open `http://localhost:4200` you will be automatically redirected to `http://localhost:4200/auth`
-5. You should configure your OIDC information in ```src/app/login/login.component.ts``` and ```src/app/auth/auth.component.ts``` paths.
-6. Make sure you replace `keycloak-tenant-id` with your TenantID and `keycloak-client-id` with your ClientID.
-7. Change `{hostname}` to match your keycloak domain.
+3. Once `node_modules` are installed, RUN `npm run start` to start execution of `ng serve`. Because `ng serve` command builds your application and serves it locally.
+4. If the app has been compiled successfully, go to browser and open `http://localhost:4200`, you will be automatically redirected to `http://localhost:4200/auth`
+5. Configure the OIDC details in ```src/app/login/login.component.ts``` and ```src/app/auth/auth.component.ts``` files.
+6. Make sure that you replace the `keycloak-tenant-id` with your TenantID and `keycloak-client-id` with your ClientID.
+7. Modify `{hostname}` to align your keycloak domain.
 
 **Note:**
 
-1. Before getting started to run angular app, Please make sure the port number `4200` is available. Because `4200` is the default port for angular app.
+1. Before starting to run the angular application, please make sure that port number 4200 is available. Since 4200 is the default angular app port.
 
 ## Approach to work with the implicit flow
 
-1. Click on "login" button
-2. You will be redirected to "Keycloak" user authentication screen
-3. Complete all authentication steps
-4. You will receive Token based on the response type which you configured
+1. Click on "login" button.
+2. You will be redirected to the user authentication screen of "Keycloak".
+3. Complete all of the authentication steps.
+4. Depending on the response type you configured, you will receive a token.
 
 ## What can I use these for
 
-OpenId Connect is a great way to add user authentication to your application where you are depending on another party to manage the user identities.
+OpenID Connect is a perfect way to incorporate user authentication to your application, where you are relying on another party to handle user identity.
 
-In this case Keycloak will manage the identity of your users making it faster to get up and running.
+In this situation, Keycloak handles the identity of the users, allowing it faster to get up and running.
 
 ## Single Sign On (SSO)
 
-By implementing OpenId Connect via Keycloak you are creating a session which can be used to single sign on from your custom app into other apps that your users may have access to via the Keycloak portal
+By integrating OpenID Connect via Keycloak, you are building a session that can be used to single sign-on from your custom app to other applications that your users can access via the Keycloak portal.
 
-If you have any queries / you notice any issues don't hesitate to raise issue.
+If you have any queries/you find any problems, please don't hesitate to raise an issue.
