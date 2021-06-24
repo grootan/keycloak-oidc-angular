@@ -2,7 +2,7 @@
   "name": "keycloak-implicitflow",
   "version": "1.0.0",
   "private": false,
-  "description": "A angularjs application for implicit flow using openid connect",
+  "description": "An Angular application for implicit flow using openid connect",
   "repository": "https://github.com/grootan/keycloak-oidc-angular",
   "author": "achyuth.thumbalam@grootan.com",
   "scripts": {
@@ -55,5 +55,5 @@
     "openid",
     "openid connect",
     "angular implicit flow"
-]
+  ]
 }

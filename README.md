@@ -1,6 +1,6 @@
-# Keycloak - Implicit Flow using AngularJS
+# Keycloak - Implicit Flow using Angular
 
-This repository contains a AngularJS example application that demonstrates the implicit flow for OpenID Connect's.
+This repository contains a Angular example application that demonstrates the implicit flow for OpenID Connect's.
 
 ## Setting up OIDC configuration
 
